@@ -512,6 +512,8 @@ UWAGA: Możesz też zobaczyć pozycję kursora w prawym, dolnym rogu ekranu.
   1. W trybie Normal wpisz  / . Zauważ, że znak ten oraz kursor pojawią
      się na dole ekranu tak samo, jak polecenie  : .
 
+  2. Teraz wpisz  błond<ENTER> .  To jest słowo, którego chcesz szukać.
+
   3. By szukać tej samej frazy ponownie, po prostu wciśnij  n .
      Aby szukać tej frazy w przeciwnym, kierunku wciśnij  N .
 
@@ -556,7 +558,7 @@ Uwaga: Ta funkcja jest bardzo użyteczna w debuggowaniu programu
   1. Przenieś kursor do linii poniżej oznaczonej --->.
 
   2. Wpisz  :s/czaas/czas<ENTER> .  Zauważ, że to polecenie zmienia
-     tylko pierwsze wystąpienie 'czas' w linii.
+     tylko pierwsze wystąpienie 'czaas' w linii.
 
   3. Teraz wpisz  :s/czaas/czas/g  . Dodane  g  oznacza zamianę (substytucję)
      globalnie w całej linii.  Zmienia wszystkie wystąpienia 'czaas' w linii.
@@ -771,7 +773,7 @@ Uwaga:  a ,  i  oraz  A  prowadzą do trybu Insert, jedyną różnicą jest miej
 
   5. Powtarzaj kroki by wymienić wszystkie xxx.
 
----> Dodanie 123 do xxx daje xxx.
+---> Dodanie 123 do 456 daje 579.
 ---> Dodanie 123 do 456 daje 579.
 
 UWAGA: Tryb Replace jest jak tryb Insert, ale każdy znak usuwa istniejący
@@ -797,7 +799,8 @@ UWAGA: Tryb Replace jest jak tryb Insert, ale każdy znak usuwa istniejący
      końca następnej linii  j$  i upakuj tam tekst z  p .
 
 --->  a) to jest pierwszy element.
-      b)
+      b) to jest pierwszy element.
+
 Uwaga: możesz użyć  y  jako operatora;  yw  kopiuje jeden wyraz.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
